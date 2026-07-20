@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/report",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Produce overview of joins, verification passes/fails, checks triggered and actions taken"
+            }
+          }
+        ],
+        "send": {
+          "text": "/report"
+        }
+      }
+    ]
+  }
+]
